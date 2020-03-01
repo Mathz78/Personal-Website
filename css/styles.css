@@ -2,6 +2,7 @@ body {
     background-color: #fff;
     text-align: center;
     margin: 0px;
+    color: #40514E;
 }
 
 div {
@@ -31,9 +32,11 @@ h1 {
     /* 
         Consegui corrigir esse bug pois quando coloquei o Width pro texto ficar com mais linhas ele ficou na esquerda, e então lembrei do 
         display: inline-block;
-    */
+
     display: inline-block;
     text-align: center;
+    */
+    margin: auto;
     width: 35%;
 }
 
@@ -109,12 +112,12 @@ p {
 .top-cloud {
    position: absolute;
    right: 25%;
-   top: 80px;
+   top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
@@ -129,10 +132,14 @@ hr {
 }
 
 .skill-row {
-    margin: 70px auto 70px auto;
+    padding: 5px;
+    margin: 100px auto 100px auto;
     width: 50%;
     text-align: left;
-    line-height: 2;
+}
+
+p {
+    line-height: 1.5;
 }
 
 .computer-photo {
@@ -159,5 +166,4 @@ ul li a {
     font-size: 18px;
     font-family: 'Oxanium';
     color: #11999E;
-
 }
