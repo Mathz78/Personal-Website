@@ -137,13 +137,9 @@ hr {
     width: 25%;
 }
 
-ul {
-
-}
 
 ul li {
     list-style: none;
-    display: inline-block;
     margin: auto 70px auto 20px;
     float: right;
 }
