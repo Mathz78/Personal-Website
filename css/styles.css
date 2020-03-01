@@ -70,14 +70,19 @@ p {
 
 .bottom-container {
     background-color: #66BFBF;
-    padding: 50px;
+    padding: 50px 0 20px;
 }
 
 .footer-link {
     color: #11999E;
     font-family: 'Oxanium';
     font-weight: bold;
-    margin: auto 20px auto 20px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
 }
 
 .myButton {
@@ -107,6 +112,7 @@ p {
 
 .footer-name {
     color: #EAF6F6;
+    font-size: 18px;
 }
 
 .top-cloud {
