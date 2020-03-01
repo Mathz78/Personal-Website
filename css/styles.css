@@ -27,6 +27,16 @@ h1 {
     color: #45b29a;
 }
 
+.description {
+    /* 
+        Consegui corrigir esse bug pois quando coloquei o Width pro texto ficar com mais linhas ele ficou na esquerda, e então lembrei do 
+        display: inline-block;
+    */
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+}
+
 h2 {
     color: #45b29a;
     font-family: 'Oxanium';
