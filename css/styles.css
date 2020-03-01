@@ -99,7 +99,7 @@ p {
 .top-cloud {
    position: absolute;
    right: 25%;
-   top: 50px;
+   top: 80px;
 }
 
 .bottom-cloud {
@@ -135,4 +135,23 @@ hr {
     margin-left: 5%;
     float: right;
     width: 25%;
+}
+
+ul {
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: auto 70px auto 20px;
+    float: right;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Oxanium';
+    color: #11999E;
+
 }
