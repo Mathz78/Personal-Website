@@ -70,7 +70,8 @@ p {
 
 .bottom-container {
     background-color: #66BFBF;
-    padding: 50px 0 20px;
+    padding: 50px 0 0 0;
+
 }
 
 .footer-link {
@@ -172,4 +173,10 @@ ul li a {
     font-size: 18px;
     font-family: 'Oxanium';
     color: #11999E;
+}
+
+.God {
+    margin: 0;
+    padding: 0;
+
 }
